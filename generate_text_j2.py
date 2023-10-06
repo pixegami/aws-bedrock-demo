@@ -2,8 +2,8 @@ import boto3
 import json
 
 prompt_data = """
-Write a short, 1-sentence 90s horror B-movie pitch 
-about a giant man-eating Python. Include a bizarre and surprising twist.
+Write a one-liner 90s style B-movie horror/comedy pitch about 
+a giant man-eating Python, with a hilarious and surprising twist.
 """
 
 bedrock = boto3.client(service_name="bedrock-runtime")

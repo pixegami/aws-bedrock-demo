@@ -17,27 +17,40 @@ Update the `prompt_data` variable to change what it generates.
 
 ```python
 prompt_data = """
-Write a short, 1-sentence 90s horror B-movie pitch
-about a giant man-eating Python. Include a bizarre and surprising twist.
+What are the top 3 benefits of cloud computing?
 """
 ```
 
 Example output:
 
 ```text
-After a scientific experiment goes awry, a giant 20-foot python escapes into the Everglades, devouring tourists and locals alike, until a retired alligator wrestler tries stopping it with the help of his pet chihuahua named Killer.
+Cloud computing provides scalability, flexibility, and cost savings by delivering on-demand compute resources, applications, and storage over the internet.
+```
+
+```python
+prompt_data = """
+Write a one-liner 90s style B-movie horror/comedy pitch about
+a giant man-eating Python,
+with a hilarious and surprising twist.
+"""
+```
+
+Example output:
+
+````text
+When a genetically-engineered 30-foot python escapes from a research facility and terrorizes a small town, it's up to a plucky teen who can inexplicably speak to snakes, a bumbling sheriff afraid of danger, and a kooky pet psychic to stop the beast before it swallows up the entire senior prom in one gulp.
 ```
 
 ## Generate Text Content Using Jurassic
 
 ```sh
 python generate_text_j2.py
-```
+````
 
 Example output:
 
 ```text
-"A group of unsuspecting tourists are terrorized by a massive, man-eating Python with a bizarre and surprising twist."
+Cloud computing provides on-demand access to a shared pool of computing resources, enabling scalable, flexible, and cost-effective IT solutions.
 ```
 
 ## Generate Image Using Stable Diffusion XL
@@ -50,8 +63,8 @@ Update the `prompt_data` variable to change what it generates.
 
 ```python
 prompt_data = """
-A portrait photo of an dog on a mountain covered in snow in 4k resolution,
-award winning photo with HDR lighting, kodak film"
+A high-red 4k HDR photo of a golden retriever puppy running on a beach.
+Action shot, blue sky, white sand, and a big smile. Cinematic film quality.
 """
 ```
 
